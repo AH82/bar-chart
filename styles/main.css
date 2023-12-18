@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;  /* placeholder */
+}
+
+body {
+  border-radius: 50px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+  height: 98vh;
+}
+
+header {
+  background-color: cadetblue; /* placeholder */
+  display: flex;
+}
+
+section.demo-data {
+  background-color: burlywood; /* placeholder */
+}
+
+section.chart-container {
+  border: 5px solid red;   /* placeholder */
+  /* height: 75vh;   placeholder */
+  flex-grow: 2;
+  display: flex;
+
+}
+section.bar-chart {
+  background-color: blue;  /* placeholder */
+  /* width: 80%; */
+  flex-grow: 1;
+}
+
+section.props {
+  background-color: blueviolet;  /* placeholder */
+  width: 20%;
+}
+
+footer {
+  background-color: beige;  /* placeholder */
+}
