@@ -26,12 +26,13 @@ section.demo-data {
   gap: 50px;
 
 }
-form {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    flex: 1;
-  }
+section.demo-data > form {
+  background-color: chocolate; /* placeholder */
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex: 1;
+}
 
 section.chart-container {
   border: 5px solid red;   /* placeholder */
@@ -49,6 +50,26 @@ section.bar-chart {
 section.props {
   background-color: blueviolet;  /* placeholder */
   width: 20%;
+}
+
+fieldset {
+  background-color: yellowgreen; /* placeholder */
+  border: 5px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  display: block;
+  margin: 3px 5%;
+  background-color: grey;
+  height: 0.25em;
+
 }
 
 footer {
