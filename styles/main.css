@@ -21,7 +21,17 @@ header {
 
 section.demo-data {
   background-color: burlywood; /* placeholder */
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
 }
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex: 1;
+  }
 
 section.chart-container {
   border: 5px solid red;   /* placeholder */
