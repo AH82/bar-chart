@@ -1,3 +1,5 @@
+/* @import "chart.css"; */
+
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +43,7 @@ section.chart-container {
   display: flex;
 
 }
-section.bar-chart {
+section.bar-chart-container {
   background-color: blue;  /* placeholder */
   /* width: 80%; */
   flex-grow: 1;

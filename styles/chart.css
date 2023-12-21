@@ -1,0 +1,53 @@
+/* .chart-container { */
+section.bar-chart-container {
+  background-color: deepskyblue;
+  /* width: 50%; */
+  display: grid;
+  grid-template-columns: 20% auto 1fr;
+/*   grid-gap: 1em; */
+  /*margin: 2px 0%; /* just to see */
+
+}
+
+.label-container {
+  outline: 5px dotted red;
+/*   background-color: red; */
+}
+
+.bar-container {
+  outline: 5px dotted blue;
+}
+
+.label-container, .bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+
+.label {
+  background-color: blueviolet;
+  color: yellow;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.vl { /* vertical-line as x-axis */
+  background-color: red;
+  border: 0;
+/*   border-left: 2px solid goldenrod; */
+  border-right: 5px solid goldenrod;
+  height: 200px;
+}
+
+.bar{
+  background-color: green;
+
+}
+
+.value {
+  color: white;
+  text-align: right;
+
+}
