@@ -21,6 +21,13 @@ header {
   display: flex;
 }
 
+/* MAIN */
+main {
+  border: 10px solid seagreen; /* temp: visual placeholder */
+  display: flex;
+  flex-direction: column;
+}
+
 section.demo-data {
   background-color: burlywood; /* placeholder */
   display: flex;
@@ -49,6 +56,7 @@ section.bar-chart-container {
   flex-grow: 1;
 }
 
+/* CHART SETTINGS */
 section.props {
   background-color: blueviolet;  /* placeholder */
   width: 20%;
@@ -74,6 +82,7 @@ hr {
 
 }
 
+/* FOOTER */
 footer {
   background-color: beige;  /* placeholder */
 }
