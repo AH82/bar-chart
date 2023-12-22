@@ -26,6 +26,7 @@ main {
   border: 10px solid seagreen; /* temp: visual placeholder */
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 section.demo-data {
