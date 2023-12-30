@@ -17,9 +17,20 @@
 
   <main>
 
-    <!-- DATA SAMPLES SECTION  -->
-    <section class="demo-data">
-      <h4 width="20%">demo-data placeholder</h4>
+    <!-- SEMANTIC CLASS' BREAKDOWN:
+        ◼ [⊦chart-]dashboard
+          ⊢-> dashboard__demo-data-selector (chart-data)
+
+          ⊢-> [[ sub-dash-wrapper (CHART-WRAPPER) ]]
+            -> dashboard__graph
+              -> graph__header => &__title + &__subtitle
+              -> graph__illustrator (body)
+
+            -> dashboard__chart-config [ PROPERTIES | CUSTOMIZER | SETTINGS | CONFIGURATION ]
+              -> config__chart (CHART SETTINGS)
+              -> config__bars  (BARS SETTINGS)
+        -->
+
       <form action="">
 
         <div>
