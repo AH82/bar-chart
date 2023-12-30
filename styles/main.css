@@ -22,7 +22,7 @@ header {
 }
 
 /* MAIN */
-main {
+.chart-dashboard {
   border: 10px solid seagreen; /* temp: visual placeholder */
   display: flex;
   flex-direction: column;
