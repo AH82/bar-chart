@@ -44,7 +44,7 @@ dashboard__demo-data-selector > form {
   flex: 1;
 }
 
-section.chart-container {
+sub-dash-wrapper {
   border: 5px solid red;   /* placeholder */
   /* height: 75vh;   placeholder */
   flex-grow: 2;
