@@ -29,14 +29,14 @@ header {
   flex-grow: 1;
 }
 
-dashboard__demo-data-selector {
+.dashboard__demo-data-selector {
   background-color: burlywood; /* placeholder */
   display: flex;
   flex-direction: row;
   gap: 50px;
 
 }
-dashboard__demo-data-selector > form {
+.dashboard__demo-data-selector > form {
   background-color: chocolate; /* placeholder */
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@ dashboard__demo-data-selector > form {
   flex: 1;
 }
 
-sub-dash-wrapper {
+.sub-dash-wrapper {
   border: 5px solid red;   /* placeholder */
   /* height: 75vh;   placeholder */
   flex-grow: 2;
