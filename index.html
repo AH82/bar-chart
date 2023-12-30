@@ -51,15 +51,34 @@
       </form>
     </section>
 
+
     <section class="sub-dash-wrapper">
 
-        <div class="vl"></div> <!--  Vertical-line / x-axis -->
+      <section class="dashboard__graph">
 
-        <div class="bar-container">
-          <div class="bar"><div class="value">01</div></div>
-          <div class="bar"><div class="value">02</div></div>
-          <div class="bar"><div class="value">03</div></div>
+        <header class="graph__header">
+          <h2> GRAPH TITLE</h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et mi nec massa hendrerit efficitur.        </p>
+        </header>
+
+
+        <div class="graph__illustrator">
+
+          <div class="bar-labels-container">
+            <div class="bar-label__item">label-1</div>
+            <div class="bar-label__item">label-2</div>
+            <div class="bar-label__item">label-3</div>
+          </div>
+
+          <div class="vl"></div> <!--  Vertical-line / x-axis -->
+
+          <div class="bars-container">
+            <div class="bar__item"><div class="bar__item__value">01</div></div>
+            <div class="bar__item"><div class="bar__item__value">02</div></div>
+            <div class="bar__item"><div class="bar__item__value">03</div></div>
+          </div>
         </div>
+
       </section>
 
 
@@ -106,7 +125,7 @@
           </fieldset>
 
           <fieldset>
-            <legend>Bar Settings</legend>
+            <legend>Bars' Configuration</legend>
             <div>
 
               <label for="value-position">value position</label>

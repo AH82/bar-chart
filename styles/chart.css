@@ -1,6 +1,7 @@
 /* .chart-container { */
-section.bar-chart-container {
+.graph__illustrator {
   background-color: deepskyblue;
+  height: 100%;
   /* width: 50%; */
   display: grid;
   grid-template-columns: 20% auto 1fr;
@@ -9,16 +10,16 @@ section.bar-chart-container {
 
 }
 
-.label-container {
+.bar-labels-container {
   outline: 5px dotted red;
 /*   background-color: red; */
 }
 
-.bar-container {
+.bars-container {
   outline: 5px dotted blue;
 }
 
-.label-container, .bar-container {
+.bar-labels-container, .bars-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -26,7 +27,7 @@ section.bar-chart-container {
 
 }
 
-.label {
+.bar-label__item {
   background-color: blueviolet;
   color: yellow;
   text-align: right;
@@ -41,12 +42,12 @@ section.bar-chart-container {
   height: 200px;
 }
 
-.bar{
+.bar__item {
   background-color: green;
 
 }
 
-.value {
+.bar__item__value {
   color: white;
   text-align: right;
 

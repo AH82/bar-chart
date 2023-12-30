@@ -51,10 +51,21 @@ header {
   display: flex;
 
 }
-section.bar-chart-container {
+
+.dashboard__graph {
+  flex-grow: 1;
+  background-color: brown;
+}
+
+.graph__header {
+  display: block;
+}
+
+.graph__illustrator {
+  /* This is repeated in chart.css  */
   background-color: blue;  /* placeholder */
   /* width: 80%; */
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 /* --- CHART CONFIHURATIONS / SETTINGS --- */
