@@ -29,14 +29,14 @@ header {
   flex-grow: 1;
 }
 
-section.demo-data {
+dashboard__demo-data-selector {
   background-color: burlywood; /* placeholder */
   display: flex;
   flex-direction: row;
   gap: 50px;
 
 }
-section.demo-data > form {
+dashboard__demo-data-selector > form {
   background-color: chocolate; /* placeholder */
   display: flex;
   flex-direction: row;
