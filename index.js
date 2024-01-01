@@ -20,11 +20,20 @@ const drawBarChart = function (data, options, element){
 
   data.forEach((element, index) => {
     console.log('element is -> ' + element + 'at index => ' + index);
-    illustrateBar(element);
+    illustrateBar(element.barValue);
   });
 
 };
 
 
 const data = [25, 45, 87, 12, 100] // temp mock data
-drawBarChart(data);
+const data01 = [
+  { barLabel : "label-A1", barValue : 1 },
+  { barLabel : "label-A2", barValue : 87 },
+  { barLabel : "label-A3", barValue : 50 },
+  { barLabel : "label-A4", barValue : 33 },
+  { barLabel : "label-A5", barValue : 100 },
+  { barLabel : "label-A6", barValue : 0 }
+];
+drawBarChart(data01);
+// drawBarChart(data);
