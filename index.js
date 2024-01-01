@@ -15,12 +15,29 @@ const illustrateBar = function (data) {
   });
 
 }
+const illustrateBarLabels = function (data) {
+
+  $(document).ready(function(){
+
+    $('.bar-labels-container').css({backgroundColor: "red" }) // css >> highlighter-placeholder
+      .append("<div></div>")
+      .children("div:last-child")
+      .addClass("bar-label__item")
+      // .css({width: `${data}%`})
+      .append("<span></span>")
+      .children("span").text(`${data}`)
+      // .addClass("bar__item__value")
+
+});
+
+}
 
 const drawBarChart = function (data, options, element){
 
   data.forEach((element, index) => {
     console.log('element is -> ' + element + 'at index => ' + index);
     illustrateBar(element.barValue);
+    illustrateBarLabels(element.barLabel);
   });
 
 };
