@@ -75,5 +75,27 @@ const data01 = [
   { barLabel : "label-A5", barValue : 100 },
   { barLabel : "label-A6", barValue : 0 }
 ];
+
+const charConfig01 = {
+  titleConfig : {
+    chartTitle : "",
+    chartSubtitle : "", //can be description
+    titleFontSize : 10,
+    titleFontColour: ""
+  },
+  axisConfig: {
+    xAxisLabel : "",
+    xAxisColor : "",
+    yAxisLabel : "",
+    yAxisColor : ""
+  },
+  barsConfig : {
+    labelsColor : "",
+    barsColors : "",
+    spacing : "auto", // Space between bars
+  }
+};
+
+
 drawBarChart(data01);
 // drawBarChart(data);
